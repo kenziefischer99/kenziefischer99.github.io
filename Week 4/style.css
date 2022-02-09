@@ -1,0 +1,19 @@
+body{
+    background-color: grey;
+    font-family: 'Amatic SC', cursive;
+}
+h1{
+    font-family: 'Unna', serif;
+    font-size: 11.089rem;
+    color: honeydew;
+}
+h2{font-size: medium;
+color: indigo;}
+ul{
+    font-size: x-small;
+    color: palegoldenrod;
+ol{ 
+    font-size: medium;
+}
+
+}
