@@ -1,0 +1,42 @@
+body{
+    background-color: aquamarine;
+    margin: 0;
+}
+
+.header{
+    grid-area: header;
+    background-color: grey;
+
+}
+
+.item1{
+    grid-area: item1;
+    background-color: indigo;
+}
+
+.item2{
+    grid-area: item2;
+    background-color: paleturquoise;
+}
+
+.item3{
+    grid-area: item3;
+    background-color: slategray;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: rgb(95, 67, 119);
+}
+
+.grid-container{
+
+   display: grid; 
+   height: 100vh;
+   grid-template-areas: 
+   'header header header'
+   'item1 item2 item3'
+   'footer footer footer';
+   background-color: darkslateblue;
+   grid-gap: 10px; 
+}

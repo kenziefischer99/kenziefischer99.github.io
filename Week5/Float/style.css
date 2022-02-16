@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(179, 161, 230);
+}
+
+header{
+    min-height: 150px;
+    background-color: rgb(77, 16, 134);
+    width: 100%;
+}
+
+#col-1{
+    min-height: 150px;
+    background-color: khaki;
+    width: 25%;
+    float: left;
+}
+
+#col-2{
+    min-height: 150px;
+    background-color: lightgray;
+    width: 25%;
+    float: left;
+}
+
+#col-3{
+    min-height: 150px;
+    background-color: white;
+    width: 25%;
+    float: left;
+}
+
+#col-4{
+    min-height: 150px;
+    background-color: rgb(239, 241, 82);
+    width: 25%;
+    float: left;
+}
+
+footer{
+    min-height: 150px;
+    background-color: rgb(32, 2, 46);
+    width: 100%;
+    clear: both;
+}
