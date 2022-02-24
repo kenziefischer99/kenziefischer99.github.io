@@ -1,32 +1,70 @@
 /*LAYOUT*/
 
+header{
+    background-color: lightgray;
+}
+
+#ingredients{
+    background-color: rgb(209, 209, 178);
+    width: 100%;
+}
+
+#directions{
+    background-color: 22223b;
+    width: 100%;
+}
+
 body{
-    background-color: grey;
-    font-family: 'Amatic SC', cursive;
-    font-size: 26px;
+    background-color: rgb(114, 109, 109);
+    font-family: 'Unna', serif;
+    font-size: 24px;
+}
+
+footer{
+    background-color: granitgrey;
+}
+
+img{
+    width: 28%;
+    height: auto;
+    float: right;
+    margin: 1%;
+    margin-bottom: 8%;
+}
+
+/*TYPOGRAPHY*/
+
+p{ 
+    font-size: 18px;
 }
 
 #container{
-    background-color: darkgray;
-    width: 60%;
+    background-color: rgb(59, 78, 59);
+    width: 80%;
     margin: auto;
 }
 
 h1{ font-family: 'Unna', serif;
-    color: honeydew;}
-
-h2{font-size: 3.089rem;
-color: indigo;
-font-size: 32px;
+    color: rgb(0, 0, 0);
+    font-size: 80px;
 }
 
+h2{
+    font-size: 3.089rem;
+    color: black;
+    font-size: 32px;
+    background-color: rgb(123, 146, 123);
+}
 
 ul{
-    font-size: 2.089rem;
-    color: palegoldenrod;}
+    font-size: 1.589rem;
+    color: black;
+}
 
-ol{ font-size: 2.089rem;}
+ol{ 
+    font-size: 1.589rem;
+}
 
-p{ font-size: 2.089rem;}
-
-/*TYPOGRAPHY*/
+#notes{
+    font-size: 15px;
+}
